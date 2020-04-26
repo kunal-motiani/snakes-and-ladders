@@ -10,7 +10,7 @@ function App() {
         <img
           alt="Not found"
           style={{ height: "30vh" }}
-          src={`../pawns/blue-pawn.png`}
+          src={`./pawns/blue-pawn.png`}
         />
       </div>
       <Gameboard gridSize={10} />
@@ -20,7 +20,7 @@ function App() {
         <img
           alt="Not found"
           style={{ height: "30vh" }}
-          src={`../pawns/yellow-pawn.png`}
+          src={`./pawns/yellow-pawn.png`}
         />
       </div>
       {/* <Monopoly gridSize={10} /> */}
