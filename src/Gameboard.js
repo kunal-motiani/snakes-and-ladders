@@ -60,18 +60,14 @@ const Gameboard = ({ gridSize }) => {
         style={{ gridRow: 10, gridColumn: 1, transition: "all 1s" }}
         className="player-avatar"
       >
-        <img
-          alt="Not found"
-          className="pawn"
-          src={`../pawns/yellow-pawn.png`}
-        />
+        <img alt="Not found" className="pawn" src={`./pawns/yellow-pawn.png`} />
       </div>
 
       <div
         style={{ gridRow: 10, gridColumn: 1, transition: "all 1s" }}
         className="player-avatar"
       >
-        <img alt="Not found" className="pawn" src={`../pawns/blue-pawn.png`} />
+        <img alt="Not found" className="pawn" src={`./pawns/blue-pawn.png`} />
       </div>
 
       {/* <div
@@ -91,7 +87,7 @@ const Gameboard = ({ gridSize }) => {
           gridRowEnd: 10,
           gridColumnEnd: 10,
         }}
-        src={`../images/snake-3.png`}
+        src={`./images/snake-3.png`}
       />
       {/* </div> */}
 
@@ -106,7 +102,7 @@ const Gameboard = ({ gridSize }) => {
         <img
           alt="Not found"
           style={{ width: "100%", height: "100%", transform: "rotate(90deg)" }}
-          src={`../images/snake-3.png`}
+          src={`./images/snake-3.png`}
         />
       </div>
 
@@ -125,7 +121,7 @@ const Gameboard = ({ gridSize }) => {
             height: "100%",
             transform: "rotate(90deg)",
           }}
-          src={`../images/snake-3.png`}
+          src={`./images/snake-3.png`}
         />
       </div>
       <div
@@ -139,7 +135,7 @@ const Gameboard = ({ gridSize }) => {
         <img
           alt="Not found"
           style={{ width: "100%", height: "100%" }}
-          src={`../images/snake-3.png`}
+          src={`./images/snake-3.png`}
         />
       </div>
 
@@ -160,7 +156,7 @@ const Gameboard = ({ gridSize }) => {
             paddingTop: "15px",
             transform: "rotate(-45deg)",
           }}
-          src={`../images/ladder-1.png`}
+          src={`./images/ladder-1.png`}
         />
       </div>
 
@@ -181,7 +177,7 @@ const Gameboard = ({ gridSize }) => {
             /*paddingTop: "5px", */
             transform: "rotate(45deg)",
           }}
-          src={`../images/ladder-1.png`}
+          src={`./images/ladder-1.png`}
         />
       </div>
     </div>
