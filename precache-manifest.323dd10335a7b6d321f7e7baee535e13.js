@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a229963139260e8b67ebaa31f3e1443",
+    "revision": "fcc73e54bd0ceae9a240f6f448080cce",
     "url": "/snakes-and-ladders/index.html"
   },
   {
-    "revision": "fb729c365f1a3fc8151c",
+    "revision": "ccf3c78f9b5a8782fd8b",
     "url": "/snakes-and-ladders/static/css/main.1438feaf.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/snakes-and-ladders/static/js/2.50cef908.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb729c365f1a3fc8151c",
-    "url": "/snakes-and-ladders/static/js/main.0dba4561.chunk.js"
+    "revision": "ccf3c78f9b5a8782fd8b",
+    "url": "/snakes-and-ladders/static/js/main.fc9b7811.chunk.js"
   },
   {
     "revision": "1f665f849d05288e8561",
